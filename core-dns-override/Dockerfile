@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/base/amd64:10.0.1
+ARG BUILD_FROM=ghcr.io/hassio-addons/base/aarch64:10.0.1
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -10,7 +10,7 @@ ENV TERM="xterm-256color"
 
 
 # Setup base
-ARG BUILD_ARCH=amd64
+ARG BUILD_ARCH=aarch64
 RUN apk add --no-cache docker
     
 RUN cp /usr/bin/docker /usr/local/bin/.undocked \
