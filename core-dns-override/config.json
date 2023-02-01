@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "slug": "coredns-fix",
   "description": "Periodically ensure the DNS container isn't using Cloudflare",
-  "url": "https://github.com/bentasker/HomeAssistantAddons/tree/master/core-dns-override",
+  "url": "https://github.com/bittles/corednsfix",
   "advanced": true,
   "startup": "services",
   "ingress": false,
