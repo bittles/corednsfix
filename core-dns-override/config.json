@@ -18,6 +18,7 @@
   "services": ["mysql:want", "mqtt:want"],
   "homeassistant_api": false,
   "host_network": false,
+  "image": "bittles999/coredns-fix:0.1.1",
   "uart": false,
   "usb": false,
   "gpio": false,
@@ -50,6 +51,6 @@
     "block_supervisor_updates" : "bool?",
     "supervisor_container" : "str",
     "block_domain" : "str",
-    "block_dest": "str"    
+    "block_dest": "str"
   }
 }
