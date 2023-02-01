@@ -18,7 +18,7 @@
   "services": ["mysql:want", "mqtt:want"],
   "homeassistant_api": false,
   "host_network": false,
-  "image": "bittles999/coredns-fix:0.1.1",
+  "image": "bittles999/coredns-fix",
   "uart": false,
   "usb": false,
   "gpio": false,
